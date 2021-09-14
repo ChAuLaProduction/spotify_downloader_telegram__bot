@@ -63,7 +63,7 @@ def START(msg, chat_id):
         downloader(msg, chat_id, 'AR')
 
     elif msg == "/start":
-        bot.sendMessage(chat_id,"Hi `{ok.user.first_name}`\nsend me spotify link and I'll give you music\nor use /single or /album or /artist")
+        bot.sendMessage(chat_id,"Hi \nsend me spotify link and I'll give you music\nor use /single or /album or /artist")
 
 
     elif msg == "/album":
